@@ -1,0 +1,192 @@
+#title{
+  background-color: #ff2e58;
+  color: white;
+}
+
+#cta{
+  background-color:lightcoral;
+}
+
+h1{
+  font-family:"Montserrat";
+  font-weight: 900;
+  font-size:3.5rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  font-height: 1.5;
+}
+
+body{
+  font-family: "Montserrat";
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+
+/* Navigation bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/*Download Buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+
+.title-image{
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+/* transforming the image to full view on ipad n smaller displays */
+
+@media (max-width: 990px){
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+    width: 55%;
+    
+  }
+}
+
+/* app-features */
+
+#features{
+  font-family: "Montserrat";
+  padding: 7% 15%;
+  background-color: white;
+  position:relative;
+}
+
+.center{
+  text-align: center;
+}
+
+.features-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 5%;
+}
+
+.feature-icon{
+    color: #ef8172;
+}
+
+.feature-icon:hover{
+  color: #ff4c68;
+}
+
+.feature-text{
+  color: #8f8f8f;
+}
+
+
+/* testimonial section */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.testimonial-msg{
+  padding: 7% 15%;
+}
+
+/* Pricing section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3%;
+}
+
+
+/* call to action  */
+
+#cta{
+  
+  padding:7% 7%;
+  background-color: #ff2e58;
+  text-align: center;
+  color: white;
+}
+
+.call-to-action-sent{
+  font-family:"Montserrat";
+  font-weight: 900;
+  padding-bottom: 3%;
+  margin: 0px 220px;
+  font-size: 3rem;
+}
+
+/* footer */
+
+#footer{
+  text-align: center;
+  padding-top: 5%;
+}
+
+.contact-icons{
+  padding: 0 5px 0px; 
+}
+
+.copy-right{
+  color:#8f8f8f;
+}
